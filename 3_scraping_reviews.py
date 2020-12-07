@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
 
-"""
-10 000 - 25 000  HOTELS 
-TEMPS EXECUTION : 3H - 7H
-""""
-
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
@@ -13,6 +8,10 @@ import pandas as pd
 import requests
 import re
 
+"""
+10 000 - 25 000  HOTELS 
+TEMPS EXECUTION : 3H - 7H
+"""
 
 
 def scraping_review_by_review_url(url_review,username,user_list,rate_list,review_list,title_list,url_hotel_list):
@@ -56,8 +55,11 @@ if __name__ == '__main__':
         for i in range(df_url_reviews.shape[0]):
             username = df_url_reviews.username[i]
             url_review_to_scrap = df_url_reviews.url_review[i]
-            scraping_review_by_review_url(url_review_to_scrap,username,user_list,rate_list,review_list,title_list,url_hotel_list)
-    
+            print(i+ " "+ url_review_to_scrap)
+            try:
+                scraping_review_by_review_url(url_review_to_scrap,username,user_list,rate_list,review_list,title_list,url_hotel_list)
+            except:
+                print("ERREUR durant le scraping de "+ url_review_to_scrap +"  DE  "+ username )
         create_csv_review("reviews.csv",user_list,url_hotel_list,rate_list,title_list,review_list)
     except:
         print("\n\nInterruption manuelle ou autre problème rencontré..")
