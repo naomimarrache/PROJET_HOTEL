@@ -1,0 +1,1214 @@
+1607292398019	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilejgYNz9"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607292403301	Marionette	INFO	Listening on port 58771
+1607292403558	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607295812112	Marionette	INFO	Stopped listening on port 58771
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilerMAReq"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607292814499	Marionette	INFO	Listening on port 58894
+1607292814630	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 668"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:668:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2105:69
+addAllSources@resource://devtools/server/actors/thread.js:1500:14
+onSources@resource://devtools/server/actors/thread.js:1506:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 668, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 668: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1607295810134	Marionette	INFO	Stopped listening on port 58894
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+BuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607293223941	Marionette	INFO	Listening on port 59025
+1607293224316	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 53284, Gecko_IOThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+[Child 43276, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+1607295808970	Marionette	INFO	Stopped listening on port 59025
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607293387082	Marionette	INFO	Listening on port 59132
+1607293387493	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 668"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:668:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2105:69
+addAllSources@resource://devtools/server/actors/thread.js:1500:14
+onSources@resource://devtools/server/actors/thread.js:1506:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 668, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 668: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+1607295812607	Marionette	INFO	Stopped listening on port 59132
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilet5EwxG"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607293560188	Marionette	INFO	Listening on port 59250
+1607293560545	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 668"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:668:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2105:69
+addAllSources@resource://devtools/server/actors/thread.js:1500:14
+onSources@resource://devtools/server/actors/thread.js:1506:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 668, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 668: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+1607295812872	Marionette	INFO	Stopped listening on port 59250
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilev0bMwP"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607293861813	Marionette	INFO	Listening on port 59402
+1607293862143	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607295809253	Marionette	INFO	Stopped listening on port 59402
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofile3DmloF"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607293924177	Marionette	INFO	Listening on port 59490
+1607293924284	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+1607295807824	Marionette	INFO	Stopped listening on port 59490
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+BuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607294016976	Marionette	INFO	Listening on port 59616
+1607294017329	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 668"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:668:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2105:69
+addAllSources@resource://devtools/server/actors/thread.js:1500:14
+onSources@resource://devtools/server/actors/thread.js:1506:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 668, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 668: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+1607295809001	Marionette	INFO	Stopped listening on port 59616
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofile3d2phq"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607294262538	Marionette	INFO	Listening on port 59734
+1607294262899	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1607295808940	Marionette	INFO	Stopped listening on port 59734
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607294314889	Marionette	INFO	Listening on port 59800
+1607294315321	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 668"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:668:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2105:69
+addAllSources@resource://devtools/server/actors/thread.js:1500:14
+onSources@resource://devtools/server/actors/thread.js:1506:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 668, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 668: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+1607295811868	Marionette	INFO	Stopped listening on port 59800
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofileKzZrZ7"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607294879190	Marionette	INFO	Listening on port 60018
+1607294879508	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1607295808961	Marionette	INFO	Stopped listening on port 60018
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofiletBxYMk"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607294955944	Marionette	INFO	Listening on port 60100
+1607294956437	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607295811305	Marionette	INFO	Stopped listening on port 60100
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofileOOAYjA"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607295125204	Marionette	INFO	Listening on port 60198
+1607295125505	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607295146479	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295807090	Marionette	INFO	Stopped listening on port 60198
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+BuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607295591594	Marionette	INFO	Listening on port 60354
+1607295592395	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607295609108	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295617651	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295625674	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295637921	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295642507	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295646257	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295649803	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295653555	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295657105	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295659676	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295662185	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295665122	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295668513	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295693426	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295695127	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295697681	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295700499	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295731281	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295736047	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295738546	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295741008	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295743555	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295755411	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295758940	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295765395	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295770249	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295787450	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295789916	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607295794052	Marionette	INFO	Stopped listening on port 60354
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1607296187208	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofileIp35SS"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607296192145	Marionette	INFO	Listening on port 65005
+1607296192541	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607296343550	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1607298309698	Marionette	INFO	Stopped listening on port 65005
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+BuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607296817261	Marionette	INFO	Listening on port 65311
+1607296817647	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607296902427	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607296980888	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607298308960	Marionette	INFO	Stopped listening on port 65311
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilehuhps3"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607298222864	Marionette	INFO	Listening on port 49359
+1607298223127	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607298308346	Marionette	INFO	Stopped listening on port 49359
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+BuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607298293757	Marionette	INFO	Listening on port 49405
+1607298294014	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607298308611	Marionette	INFO	Stopped listening on port 49405
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1607298326402	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofileeT4aCK"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607298331154	Marionette	INFO	Listening on port 49455
+1607298331205	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607307298607	Marionette	INFO	Stopped listening on port 49455
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofile2WqdMu"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607298453133	Marionette	INFO	Listening on port 49542
+1607298453551	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:989:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: "getApplied@resource://devtools/server/actors/styles.js:566:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.contentType]
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:989:5)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error writing request: getGrids"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+1607307303408	Marionette	INFO	Stopped listening on port 49542
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilePSD6XT"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607300399602	Marionette	INFO	Listening on port 50022
+1607300399769	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607300450725	Marionette	INFO	Stopped listening on port 50022
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1607300454795	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilezPY8MX"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607300459780	Marionette	INFO	Listening on port 50103
+1607300460125	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607307302736	Marionette	INFO	Stopped listening on port 50103
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+BuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607300592080	Marionette	INFO	Listening on port 50195
+1607300592310	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "rx.exec(...) is null"
+console.error: "getTextAtLineColumn@resource://devtools/server/actors/styles.js:2488:17\ngetRuleText@resource://devtools/server/actors/styles.js:2364:59\ngetAuthoredCssText/<@resource://devtools/server/actors/styles.js:1826:35\n"
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+console.error: (new Error("Protocol error (TypeError): rx.exec(...) is null from: server0.conn0.child3/pagestyle26 (resource://devtools/server/actors/styles.js:2488:17)", "resource://devtools/shared/protocol/Front.js", 353))
+1607307301290	Marionette	INFO	Stopped listening on port 50195
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilebpmqAd"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607301028707	Marionette	INFO	Listening on port 50342
+1607301029082	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607307298410	Marionette	INFO	Stopped listening on port 50342
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+BuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607301093932	Marionette	INFO	Listening on port 50431
+1607301093996	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607307298737	Marionette	INFO	Stopped listening on port 50431
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilefJk8bs"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607301167159	Marionette	INFO	Listening on port 50518
+1607301167301	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript e1607307299262	Marionette	INFO	Stopped listening on port 50656
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+pleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+1607307302237	Marionette	INFO	Stopped listening on port 50518
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofile1o9l4F"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607302005524	Marionette	INFO	Listening on port 50819
+1607302005864	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607307296875	Marionette	INFO	Stopped listening on port 50819
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofileYOl4Ar"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607302074697	Marionette	INFO	Listening on port 50899
+1607302075304	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607307302240	Marionette	INFO	Stopped listening on port 50899
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofileg5v8fZ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607302154208	Marionette	INFO	Listening on port 50989
+1607302154546	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607307300871	Marionette	INFO	Stopped listening on port 50989
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+BuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607303051767	Marionette	INFO	Listening on port 51213
+1607303052063	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607307296384	Marionette	INFO	Stopped listening on port 51213
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilepFuVJA"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607304201394	Marionette	INFO	Listening on port 51921
+1607304201915	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607307295705	Marionette	INFO	Stopped listening on port 51921
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofileClyd2Y"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607304371018	Marionette	INFO	Listening on port 52087
+1607304371162	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+1607307295605	Marionette	INFO	Stopped listening on port 52087
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+w"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607304435191	Marionette	INFO	Listening on port 52183
+1607304435241	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=238cb800","state":{"remoteTypePrefix":"prealloc"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3329,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162"]}] Barrier: profile-before-change
+1607307299914	Marionette	INFO	Stopped listening on port 52183
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"", "(unknown module)"))
+1607304621646	Marionette	INFO	Listening on port 52398
+1607304621778	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1607307301316	Marionette	INFO	Stopped listening on port 52398
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+thDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607305825700	Marionette	INFO	Listening on port 58711
+1607305825918	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607307294149	Marionette	INFO	Stopped listening on port 58711
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofileoKmg7d"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607306088860	Marionette	INFO	Listening on port 58889
+1607306089311	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 73268, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1607307294050	Marionette	INFO	Stopped listening on port 58889
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 5366: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
+xists, new profile?" (new Error("", "(unknown module)"))
+1607306167784	Marionette	INFO	Listening on port 58992
+1607306168115	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607307294307	Marionette	INFO	Stopped listening on port 58992
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 5366: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
+et: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1607306273207	Marionette	INFO	Listening on port 59105
+1607306273405	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607307294050	Marionette	INFO	Stopped listening on port 59105
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+BuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607306504444	Marionette	INFO	Listening on port 59225
+1607306504797	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2303: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 697: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "IOUtils Blocker"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 697: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "CrashService waiting for content crash ping to be sent"
+1607307293506	Marionette	INFO	Stopped listening on port 59225
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 5366: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
+mageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607307213777	Marionette	INFO	Listening on port 59495
+1607307214211	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.tacdn.com/assets/B7vHz6.GY1ypo8R.js, line 1: SyntaxError: An invalid or illegal string was specified
+JavaScript error: https://static.tacdn.com/assets/B7vHz6.GY1ypo8R.js, line 1: SyntaxError: An invalid or illegal string was specified
+[Parent 79992, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1607307281776	Marionette	INFO	Stopped listening on port 59495
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1-]: DCompositionSurface::BeginDraw failed: 0x887a0005
+[GFX1-]: DCompositionSurface::BeginDraw failed: 0x887a0005
+[GFX1-]: Failed to make render context current, can't draw.
+[GFX1-]: GFX: RenderThread detected a device reset in BeginFrame
+[GFX1-]: RcANGLE(waiting device reset)
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+[GFX1-]: Failed to make render context current during destroying.
+[GFX1-]: Failed to make render context current during destroying.
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0005, 0
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+[GFX1-]: Compositors might be mixed (5,1)
+[GFX1-]: Failed buffer for 0, 0, 1604, 968
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0005, 0
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+[GFX1-]: Failed to create a D3D11 content device: 0x887a0004
+[GFX1-]: Failed to create a D3D11 content device: 0x887a0004
+out of memory: 0x0000000000001000 bytes requested
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0005, 0
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+[GFX1-]: Failed to create a D3D11 content device: 0x887a0004
+out of memory: 0x0000000000001000 bytes requested
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A004E,name=PContent::Msg_NotifyProcessPriorityChanged) Channel error: cannot send/recv
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" "out of memory"
+out of memory: 0x0000000000018000 bytes requested
+1607307375868	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofileAMn4Gr"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607307381458	Marionette	INFO	Listening on port 59776
+1607307381716	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1607353876332	Marionette	INFO	Stopped listening on port 59776
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+mbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607307628723	Marionette	INFO	Listening on port 59940
+1607307628761	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1607354561635	Marionette	INFO	Stopped listening on port 59940
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+mbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607308658324	Marionette	INFO	Listening on port 60232
+1607308658498	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: https://outlook.office365.com/owa/prefetch.aspx, line 18: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://mem.gfx.ms/scripts/me/MeControl/10.20300.4/fr-FR/meBoot.min.js, line 1: Error: Got signOutFromAppUrl request for AAD, but we don't have usable AAD info from V1 config.
+[Child 77804, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1607354563221	Marionette	INFO	Stopped listening on port 60232
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+t/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607311936350	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607311937704	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607311990332	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1607354563493	Marionette	INFO	Stopped listening on port 61110
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+BuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607312121520	Marionette	INFO	Listening on port 61247
+1607312121778	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1607354562829	Marionette	INFO	Stopped listening on port 61247
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
