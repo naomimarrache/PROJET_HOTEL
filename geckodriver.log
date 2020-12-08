@@ -1360,21 +1360,35 @@ TimedPromise/<@chrome://marionette/content/sync.js:228:19
 TimedPromise@chrome://marionette/content/sync.js:213:10
 interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
 webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-1607376766547	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilep1ZYbK"
+1607381800463	Marionette	INFO	Stopped listening on port 64507
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilep1ZYbK"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 Can't find symbol 'eglSetDamageRegionKHR'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1607376771777	Marionette	INFO	Listening on port 64621
 1607376771870	Marionette	WARN	TLS certificate errors will be ignored for this session
-1607376886508	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofileebasCO"
-Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1607381800142	Marionette	INFO	Stopped listening on port 64621
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+BuffersWithDamageEXT'.
 Can't find symbol 'eglSetDamageRegionKHR'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1607376891206	Marionette	INFO	Listening on port 64703
 1607376891336	Marionette	WARN	TLS certificate errors will be ignored for this session
-1607376895124	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilePSSCyQ"
+1607381799977	Marionette	INFO	Stopped listening on port 64703
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+"-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilePSSCyQ"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 Can't find symbol 'eglSetDamageRegionKHR'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
@@ -1387,3 +1401,4 @@ JavaScript error: https://static.tacdn.com/assets/OyezR0.cLrCHNmF.js, line 1: Er
 GraphQL error: Cannot return null for non-nullable type: 'Boolean' within parent 'Mutation' (/trackProfilePageViewByUserName)
 JavaScript error: https://static.tacdn.com/assets/OyezR0.cLrCHNmF.js, line 1: Error: Network error: NetworkError when attempting to fetch resource.
 JavaScript error: https://static.tacdn.com/assets/OyezR0.cLrCHNmF.js, line 1: Error: Network error: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1607381799615	Marionette	INFO	Stopped listening on port 64746

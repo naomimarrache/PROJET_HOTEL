@@ -71,13 +71,13 @@ if __name__ == "__main__":
                         username_list.append(username)
             except:
                 print("ERREUR, possible : Trop de données à charger, tant pis pour cet user !")
-        create_csv_url_review("reviews_url2.csv",username_list,url_reviews_to_scrap)
+        create_csv_url_review("reviews_url_TEST.csv",username_list,url_reviews_to_scrap)
         #scraping_reviews_by_reviews_list(url_reviews_to_scrap,username,user_list,rate_list,review_list,title_list)
     #create_csv_review("reviews.csv",user_list,rate_list,title_list,review_list)
     except:
         print("Interruption manuelle ou autre problème rencontré..")
         print("PROFILE USER en cours de traitement :  ", url_profile)
-        create_csv_url_review("reviews_url2.csv",username_list,url_reviews_to_scrap)
+        create_csv_url_review("reviews_url_TEST.csv",username_list,url_reviews_to_scrap)
         
      #   print("Interruption manuelle ou autre problème rencontré..")
         #create_csv_review("reviews.csv",user_list,rate_list,title_list,review_list)
