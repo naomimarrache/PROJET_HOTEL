@@ -16,6 +16,10 @@ localisation recupéres sous forme Europe > France > Normandie ... > Deauville
             --> possibilité de faire un tfidf 
 penser à remplacer les none par la moyenne des notes dans cette categorie dans la ville, ou le pays
 
+
+NOTE : En fonction de la connexion internet, le chagment des element 
+d'une page, en javascript puevent prendre du temps à charger,
+c'est la cas pour le prix'
 """
 
 
@@ -64,6 +68,8 @@ def scrap_infos_hotel_by_url(driver,url, name_hotel_list,url_hotel_list, adress_
     adress_hotel = soup.find('div',class_="vEwHDg4B _1WEIRhGY").text  
     
     price_hotel = "NotFound"
+    
+    time.sleep(3)        
     try:
         price_hotel = soup.find('div',class_="ui_columns is-mobile is-multiline is-vcentered is-gapless-vertical _2mWM5u8t").text.replace("€","").replace("Voir l'offre","").strip()
     except:
@@ -76,17 +82,21 @@ def scrap_infos_hotel_by_url(driver,url, name_hotel_list,url_hotel_list, adress_
             price_hotel = "NotFound"
             #price_hotel = soup.find('div',class_="_3U1VaTGs").text.replace("€","").strip()
     if len(price_hotel.strip())==0 or price_hotel=="NotFound":
+        print("no price")
         price_hotel = None
+     
         
     if price_hotel==None:
-        print("no price")
+        
         try:
+            print("no price")
             url_similar_hotel = "https://www.tripadvisor.fr"+soup.find('a',class_="_3TKvRNea ui_button primary")['href']
             print(url_similar_hotel)
             #url_similar_hotel = soup.find('a',class_="_3TKvRNea ui_button primary")['href']
             price_hotel = find_price_similar_hotel_by_url(url_similar_hotel)
-            print("\nSimlar hotel price : "+ price_hotel)
+            print("\nSimilar hotel price : "+ price_hotel)
         except:
+            print("no price")
             price_hotel = None
 
         
@@ -152,7 +162,7 @@ def create_csv_hotels(filename,name_hotel_list,url_hotel_list, adress_hotel_list
 if __name__ == '__main__':
     df = pd.read_csv('reviews.csv')
     driver = webdriver.Firefox()
-    list_url_hotel = pd.Series(df.url_hotel.unique())
+    list_url_hotel = pd.Series(df.url_hotel.unique())[2170:]
     name_hotel_list, url_hotel_list, adress_hotel_list, price_hotel_list, position_by_city_hotel_list , country_hotel_list= [], [], [], [], [], []
     city_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list = [], [], [], [], [], []
     try: 
@@ -165,19 +175,19 @@ if __name__ == '__main__':
                 driver.close()
                 print("\n\nInterruption manuelle ou autre problème rencontré..")
                 print("HOTEL URL en cours de traitement :  ", url)
-                df_hotels = create_csv_hotels("hotels2.csv",name_hotel_list, url_hotel_list,adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list, country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list)
+                df_hotels = create_csv_hotels("hotels2170_3000.csv",name_hotel_list, url_hotel_list,adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list, country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list)
                 break            
             except Exception as e:
                 print("\nERROR : erreur scraping, tant pis pour cet hotel ! \n")
         
         
-        df_hotels = create_csv_hotels("hotels2.csv",name_hotel_list, url_hotel_list,adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list ,country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list)
+        df_hotels = create_csv_hotels("hotels2170_3000.csv",name_hotel_list, url_hotel_list,adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list ,country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list)
         print("HOTELS.CSV WELL CREATED ! 1")
     except:
         driver.close()
         print("\n\nInterruption manuelle ou autre problème rencontré..")
         print("HOTEL URL en cours de traitement :  ", url)
-        df_hotels = create_csv_hotels("hotels2.csv",name_hotel_list, url_hotel_list,adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list, country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list)
+        df_hotels = create_csv_hotels("hotels2170_3000.csv",name_hotel_list, url_hotel_list,adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list, country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list)
         print("HOTELS.CSV WELL CREATED ! 2")       
         
 
