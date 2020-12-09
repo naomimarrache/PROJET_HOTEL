@@ -56,10 +56,10 @@ if __name__=="__main__":
         scrap_url_user_by_hotel_page(driver,url_hotel_base1,url_list_user,username_list)
         #on pourrait rajouter une page d'hotel plus bas de gamme pour avoir une clientèle élargie 
         #scrap_url_user_by_hotel_page(driver,url_hotel_base2,url_list_user)
-        create_csv_with_lists("users_profile_url.csv","url_profile","username",url_list_user,username_list)
+        create_csv_with_lists("users_profile_url2.csv","url_profile","username",url_list_user,username_list)
     except:
         print("Interruption manuelle ou autre problème rencontré..")
-        create_csv_with_lists("users_profile_url.csv","url_profile","username",url_list_user,username_list)
+        create_csv_with_lists("users_profile_url2.csv","url_profile","username",url_list_user,username_list)
     
 
   

@@ -61,11 +61,11 @@ if __name__ == '__main__':
                 scraping_review_by_review_url(url_review_to_scrap,username,user_list,rate_list,review_list,title_list,url_hotel_list)
             except:
                 print("ERREUR durant le scraping de "+ url_review_to_scrap +"  DE  "+ username )
-        create_csv_review("reviews.csv",user_list,url_hotel_list,rate_list,title_list,review_list)
+        create_csv_review("reviews2.csv",user_list,url_hotel_list,rate_list,title_list,review_list)
     except:
         print("\n\nInterruption manuelle ou autre problème rencontré..")
         print("REVIEW URL en cours de traitement :  ", url_review_to_scrap)
-        create_csv_review("reviews.csv",user_list,url_hotel_list,rate_list,title_list,review_list)
+        create_csv_review("reviews2.csv",user_list,url_hotel_list,rate_list,title_list,review_list)
         
             
 

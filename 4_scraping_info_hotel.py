@@ -19,6 +19,16 @@ penser à remplacer les none par la moyenne des notes dans cette categorie dans 
 """
 
 
+def find_price_similar_hotel_by_url(url):
+    r=requests.get(url)
+    soup_ = BeautifulSoup(r.text, 'lxml')  
+    try:
+        prix = soup_.find_all('div',class_="price")[2].text.replace("€","")
+    except:
+        prix = None
+    return prix
+    
+
 
 def list_to_str_with_sep(list_,sep):
     str_ = ""
@@ -32,6 +42,13 @@ def position_str_to_ratio(position_str):
     ratio = (int(tab[1])-int(tab[0]))/int(tab[1])
     return ratio
 
+def contain_lang(str_):
+    lang_list = ['Anglais', 'Russe', 'Arabe', 'Français', 'Espagnol']
+    for lang in lang_list:
+        if lang in str_:
+            return True
+    return False
+        
 
 def scrap_infos_hotel_by_url(driver,url, name_hotel_list,url_hotel_list, adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list,country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list):
     driver.get(url)
@@ -41,7 +58,7 @@ def scrap_infos_hotel_by_url(driver,url, name_hotel_list,url_hotel_list, adress_
     try:
         name_hotel  = soup.find('h1',class_="_1mTlpMC3").text
     except:
-        time.sleep(1)
+        time.sleep(2)
         soup = BeautifulSoup(driver.page_source,'lxml')
         name_hotel  = soup.find('h1',class_="_1mTlpMC3").text
     adress_hotel = soup.find('div',class_="vEwHDg4B _1WEIRhGY").text  
@@ -51,12 +68,28 @@ def scrap_infos_hotel_by_url(driver,url, name_hotel_list,url_hotel_list, adress_
         price_hotel = soup.find('div',class_="ui_columns is-mobile is-multiline is-vcentered is-gapless-vertical _2mWM5u8t").text.replace("€","").replace("Voir l'offre","").strip()
     except:
         try:
-            price_hotel = soup.find('div',class_="ui_columns is-gapless is-mobile").text.replace("€","").replace("Voir l'offre","").strip()
+            try:
+                price_hotel = soup.find('div',class_="ui_columns is-gapless is-mobile").text.replace("€","").replace("Voir l'offre","").strip()
+            except:
+                price_hotel = soup.find('div',class_="_3kGtuPhC").text.replace("€","").replace("Voir l'offre","").strip()
         except:
             price_hotel = "NotFound"
             #price_hotel = soup.find('div',class_="_3U1VaTGs").text.replace("€","").strip()
     if len(price_hotel.strip())==0 or price_hotel=="NotFound":
         price_hotel = None
+        
+    if price_hotel==None:
+        print("no price")
+        try:
+            url_similar_hotel = "https://www.tripadvisor.fr"+soup.find('a',class_="_3TKvRNea ui_button primary")['href']
+            print(url_similar_hotel)
+            #url_similar_hotel = soup.find('a',class_="_3TKvRNea ui_button primary")['href']
+            price_hotel = find_price_similar_hotel_by_url(url_similar_hotel)
+            print("\nSimlar hotel price : "+ price_hotel)
+        except:
+            price_hotel = None
+
+        
     position_by_city_hotel = soup.find('div',class_="_1vpp5J_x").text.split("H")[0].strip().replace('Nº','')
     #ville_hotel = soup.find('div',class_="_1vpp5J_x").find('a').text
     localisation_hotel_selector = soup.find('ul',class_="breadcrumbs").find_all('li',class_="breadcrumb")[:-1]
@@ -76,6 +109,8 @@ def scrap_infos_hotel_by_url(driver,url, name_hotel_list,url_hotel_list, adress_
         style_divs = soup.find_all('div',class_="_2dtF3ueh")[1:]   
     style_hotel = [div.text for div in style_divs]
     style_hotel = list_to_str_with_sep(style_hotel,"||")
+    if(contain_lang(style_hotel)):
+        style_hotel = None
     #types_room_divs = soup.find_all("div",class_="_1nAmDotd")[2].find_all('div',class_="_2rdvbNSg")
     #types_room_hotel = [div.text for div in types_room_divs]
     try:
@@ -127,14 +162,19 @@ if __name__ == '__main__':
             try:
                 scrap_infos_hotel_by_url(driver,url, name_hotel_list, url_hotel_list, adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list,country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list)
             except KeyboardInterrupt:
-                break
+                driver.close()
+                print("\n\nInterruption manuelle ou autre problème rencontré..")
+                print("HOTEL URL en cours de traitement :  ", url)
+                df_hotels = create_csv_hotels("hotels2.csv",name_hotel_list, url_hotel_list,adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list, country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list)
+                break            
             except:
                 print("\nERROR : erreur scraping, tant pis pour cet hotel ! \n")
-                
-                
-            df_hotels = create_csv_hotels("hotels2.csv",name_hotel_list, url_hotel_list,adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list ,country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list)
+                pass
+                    
+        df_hotels = create_csv_hotels("hotels2.csv",name_hotel_list, url_hotel_list,adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list ,country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list)
     
     except KeyboardInterrupt:
+        driver.close()
         print("\n\nInterruption manuelle ou autre problème rencontré..")
         print("HOTEL URL en cours de traitement :  ", url)
         df_hotels = create_csv_hotels("hotels2.csv",name_hotel_list, url_hotel_list,adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list, country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list)
