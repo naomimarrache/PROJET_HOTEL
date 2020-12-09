@@ -19,8 +19,8 @@ penser à remplacer les none par la moyenne des notes dans cette categorie dans 
 """
 
 
-def find_price_similar_hotel_by_url(url):
-    r=requests.get(url)
+def find_price_similar_hotel_by_url(url_similar):
+    r=requests.get(url_similar)
     soup_ = BeautifulSoup(r.text, 'lxml')  
     try:
         prix = soup_.find_all('div',class_="price")[2].text.replace("€","")
@@ -167,18 +167,18 @@ if __name__ == '__main__':
                 print("HOTEL URL en cours de traitement :  ", url)
                 df_hotels = create_csv_hotels("hotels2.csv",name_hotel_list, url_hotel_list,adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list, country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list)
                 break            
-            except:
+            except Exception as e:
                 print("\nERROR : erreur scraping, tant pis pour cet hotel ! \n")
-                pass
-                    
+        
+        
         df_hotels = create_csv_hotels("hotels2.csv",name_hotel_list, url_hotel_list,adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list ,country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list)
-    
-    except KeyboardInterrupt:
+        print("HOTELS.CSV WELL CREATED ! 1")
+    except:
         driver.close()
         print("\n\nInterruption manuelle ou autre problème rencontré..")
         print("HOTEL URL en cours de traitement :  ", url)
         df_hotels = create_csv_hotels("hotels2.csv",name_hotel_list, url_hotel_list,adress_hotel_list, price_hotel_list, position_by_city_hotel_list,  city_hotel_list, country_hotel_list, localisation_hotel_list, global_rate_hotel_list, category_hotel_list, style_hotel_list, equipments_hotel_list)
-                
+        print("HOTELS.CSV WELL CREATED ! 2")       
         
 
 

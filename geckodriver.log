@@ -5259,25 +5259,32 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1607515295655	Marionette	INFO	Listening on port 56758
 1607515296089	Marionette	WARN	TLS certificate errors will be ignored for this session
-1607515395668	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofileHcCoTY"
+JavaScript warning: https://static.tacdn.com/assets/z2XL6d.QgIhinTe.js, line 1: Script terminated by timeout at:
+d/<@https://static.tacdn.com/assets/z2XL6d.QgIhinTe.js:1:497
+d@https://static.tacdn.com/assets/z2XL6d.QgIhinTe.js:1:499
+v@https://static.tacdn.com/assets/z2XL6d.QgIhinTe.js:1:739
+h/this.focusLastDescendant@https://static.tacdn.com/assets/z2XL6d.QgIhinTe.js:1:1452
+
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 Can't find symbol 'eglSetDamageRegionKHR'.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1607515399364	Marionette	INFO	Listening on port 56846
-1607515399871	Marionette	WARN	TLS certificate errors will be ignored for this session
-1607515442386	Marionette	INFO	Stopped listening on port 56846
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x5B000E,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x6B0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+JavaScript warning: https://static.tacdn.com/assets/peh_3a.6OMD97o5.js, line 1: Script terminated by timeout at:
+e/l.prototype.push@https://static.tacdn.com/assets/peh_3a.6OMD97o5.js:1:1
+@https://static.tacdn.com/assets/LxkT6Y.E3vnyXta.js:1:25
 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1607517215021	Marionette	INFO	Stopped listening on port 56758
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 1607515470948	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilebhya7s"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
@@ -5293,3 +5300,152 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1607515763112	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilejfyyZY"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607515766710	Marionette	INFO	Listening on port 57349
+1607515766809	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Marionette threw an error: TypeError: this.curBrowser.messageManager is null
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:361:5
+send/<@chrome://marionette/content/proxy.js:190:12
+send@chrome://marionette/content/proxy.js:124:12
+get/<@chrome://marionette/content/proxy.js:37:29
+GeckoDriver.prototype.execute_@chrome://marionette/content/driver.js:1141:33
+
+JavaScript error: https://www.tripadvisor.fr/Hotel_Review-g187147-d13531951-Reviews-Mom_Art_Hotel_Spa-Paris_Ile_de_France.html, line 29: NetworkError: A network error occurred.
+JavaScript error: https://www.tripadvisor.fr/Hotel_Review-g187147-d13531951-Reviews-Mom_Art_Hotel_Spa-Paris_Ile_de_France.html, line 29: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.tripadvisor.fr/Hotel_Review-g187147-d13531951-Reviews-Mom_Art_Hotel_Spa-Paris_Ile_de_France.html, line 29: TypeError: NetworkError when attempting to fetch resource.
+1607516463374	Marionette	INFO	Stopped listening on port 57349
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1607516610445	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofile7TiNRC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607516614099	Marionette	INFO	Listening on port 57652
+1607516614197	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607516686010	Marionette	INFO	Stopped listening on port 57652
+JavaScript error: https://www.tripadvisor.fr/Hotel_Review-g187209-d290326-Reviews-Holiday_Village_Pont_Royal_en_Provence-Aix_en_Provence_Bouches_du_Rhone_Provence_Alpes_.html, line 29: NetworkError: A network error occurred.
+JavaScript error: https://www.tripadvisor.fr/Hotel_Review-g187209-d290326-Reviews-Holiday_Village_Pont_Royal_en_Provence-Aix_en_Provence_Bouches_du_Rhone_Provence_Alpes_.html, line 29: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1607516759773	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofiledFtMre"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607516763606	Marionette	INFO	Listening on port 57746
+1607516763989	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1607516864284	Marionette	INFO	Stopped listening on port 57746
+JavaScript error: https://www.tripadvisor.fr/Hotel_Review-g1947298-d597920-Reviews-Abbaye_de_la_Bussiere-La_Bussiere_sur_Ouche_Cote_d_Or_Bourgogne_Franche_Comte.html, line 29: NetworkError: A network error occurred.
+JavaScript error: https://www.tripadvisor.fr/Hotel_Review-g1947298-d597920-Reviews-Abbaye_de_la_Bussiere-La_Bussiere_sur_Ouche_Cote_d_Or_Bourgogne_Franche_Comte.html, line 29: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0146,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1607516945800	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofileTyVay5"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607516949421	Marionette	INFO	Listening on port 57855
+1607516949516	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: this.curBrowser.messageManager is null
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:361:5
+send/<@chrome://marionette/content/proxy.js:190:12
+send@chrome://marionette/content/proxy.js:124:12
+get/<@chrome://marionette/content/proxy.js:37:29
+GeckoDriver.prototype.execute_@chrome://marionette/content/driver.js:1141:33
+
+Marionette threw an error: TypeError: this.curBrowser.messageManager is null
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:361:5
+send/<@chrome://marionette/content/proxy.js:190:12
+send@chrome://marionette/content/proxy.js:124:12
+get/<@chrome://marionette/content/proxy.js:37:29
+GeckoDriver.prototype.navigateTo@chrome://marionette/content/driver.js:1194:23
+
+1607517030013	Marionette	INFO	Stopped listening on port 57855
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1607517328487	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofileWSjbG0"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607517332146	Marionette	INFO	Listening on port 58059
+1607517332215	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607517343227	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilesW2BTC"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607517346919	Marionette	INFO	Listening on port 58099
+1607517347467	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607517366087	Marionette	INFO	Stopped listening on port 58099
+JavaScript error: https://www.tripadvisor.fr/Hotel_Review-g187266-d1488438-Reviews-Relais_Chateaux_Flocons_de_Sel-Megeve_Haute_Savoie_Auvergne_Rhone_Alpes.html, line 1790: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1607517443447	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofiledtuk3i"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607517447506	Marionette	INFO	Listening on port 58190
+1607517447651	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1607517481596	Marionette	INFO	Stopped listening on port 58190
+JavaScript error: https://www.tripadvisor.fr/Hotel_Review-g666636-d232357-Reviews-Relais_Chateaux_Hostellerie_de_Levernois-Levernois_Cote_d_Or_Bourgogne_Franche_Comte.html, line 29: NetworkError: A network error occurred.
+JavaScript error: , line 0: uncaught exception: Object
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1607517500443	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofileQgbET2"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607517504213	Marionette	INFO	Listening on port 58265
+1607517504659	Marionette	WARN	TLS certificate errors will be ignored for this session
