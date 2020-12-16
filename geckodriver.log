@@ -7390,8 +7390,10 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1607652575392	Marionette	INFO	Listening on port 53498
 1607652575845	Marionette	WARN	TLS certificate errors will be ignored for this session
-1607652583602	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofile3d48Yp"
-Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+[Parent 13452, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+1607808496956	Marionette	INFO	Stopped listening on port 53498
+ymbol 'eglSwapBuffersWithDamageEXT'.
 Can't find symbol 'eglSetDamageRegionKHR'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
@@ -7433,9 +7435,13 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1607652671807	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-1607652735751	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Naomi\\AppData\\Local\\Temp\\rust_mozprofilex91sFH"
-Can't find symbol 'eglSwapBuffersWithDamageEXT'.
-Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1607808490672	Marionette	INFO	Stopped listening on port 53789
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ol 'eglSetDamageRegionKHR'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1607652740417	Marionette	INFO	Listening on port 53875

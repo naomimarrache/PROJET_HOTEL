@@ -11,7 +11,7 @@ utilisé un filttrage collaboratif base modele et nonn memoire
 car nous sommes dans le cas d'une matrice creuse
 
 plus precisement nous utiliseros la factprisation matricielle
-avec SVD de surprise
+avec SVD( ou NMF) de surprise
 
 
 http://dspace.univ-tlemcen.dz/bitstream/112/11348/1/Utilisation-de-factorisation-matricielle.pdf
@@ -23,23 +23,17 @@ cf:
 """
 
 
-
 UDF = pd.read_csv("users_profile_url.csv")
 RDF = pd.read_csv('reviews.csv')
-HDF = pd.read_csv('hotels.csv')
+HDF = pd.read_csv('hotels_agreg.csv')
 
 
 #allouer à chaque hotel/review un id hotel_id/review_id
-
-
 UDF['user_id'] = UDF.index
 HDF['hotel_id'] = HDF.index
-
 #commencer à 1 et non 0
-
 UDF['user_id']=UDF['user_id'].apply(lambda x : x+1)
 HDF['hotel_id']=HDF['hotel_id'].apply(lambda x : x+1)
-
 
 RHDF=pd.merge(RDF,HDF)
 UHDF = pd.merge(RHDF,UDF)
@@ -48,9 +42,7 @@ rates = UHDF.rate
 hotel_ids = UHDF.hotel_id
 user_ids = UHDF.user_id
 
-
 ratings = pd.DataFrame({'user_id':user_ids,'hotel_id':hotel_ids,'rating':rates})
-
 
 reader = Reader()
 data = Dataset.load_from_df(ratings[['user_id','hotel_id','rating']],reader)
@@ -102,11 +94,29 @@ pred_4_meilleurs_films_user_1 = pred_4_meilleurs_films_user_1.drop(columns=['uid
 
 def generate_auto_id(list_id):
     id = list_id[len(list_id)-1]
-    while id not in list_id:
-        id = id  + 1
+    while True:
+        if id in list_id:
+            id = id  + 1
+        else:
+            break
     return id
-        
-        
 
+
+
+
+
+from surprise import SVD,NormalPredictor
+from surprise.model_selection import GridSearchCV
+
+
+param_grid = {'n_factors':[50,100,150],'n_epochs':[10,20,30],  'lr_all':[0.005,0.01],'reg_all':[0.02,0.1]}
+gs = GridSearchCV(SVD,param_grid, measures=['rmse'], cv=5)
+gs.fit(data)
+params = gs.best_params['rmse']
+
+
+
+
+#1.1099016014705771
 
 

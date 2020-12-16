@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+
+algo=SVD()
+#algo1=NMF()
+#results = cross_validate(algo, data, measures=['RMSE'], cv=3, verbose=True)
+
+trainset = data.build_full_trainset()   #Build on entire data set
+algo.fit(trainset)
+#algo1.fit(trainset)
+testset = trainset.build_anti_testset()
+
+#Predicting the ratings for testset
+predictions = algo.test(testset)
+#predictions1=algo1.test(testset)
+erreur=accuracy.rmse(predictions)
+#erreur1=accuracy.rmse(predictions1)
+
+def get_all_predictions(prediction,n):
+ 
+    # First map the predictions to each user.
+    similar_n = defaultdict(list)    
+    for uid, iid, true_r, est, _ in prediction:
+        similar_n[uid].append((iid, est))
+
+    # sort the predictions for each user
+    for uid, user_ratings in similar_n.items():
+        user_ratings.sort(key=lambda x: x[1], reverse=True)
+        similar_n[uid]=user_ratings[:n]
+    return similar_n
+n=4
+pred_user  =get_all_predictions(predictions,n)
+
+#pred_user1= get_all_predictions(predictions1,n)
+
+tmp = pd.DataFrame.from_dict(pred_user)
+tmp_transpose = tmp.transpose()
+
+#recommandation pour user 16
+user_id= 1
+results_pred = tmp_transpose.loc[user_id]
+
+#format de results_pred (moviedid, rating), mais on va extraire movieID
+recommended_movie_ids=[]
+for x in range(0, n):
+    recommended_movie_ids.append(results_pred[x][0])
+  
+movies = pd.read_csv('movies.csv')
+movies.head()
+recommended_movies = movies[movies['movieId'].isin(recommended_movie_ids)]

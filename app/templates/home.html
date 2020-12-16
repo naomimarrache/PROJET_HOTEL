@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SentimentAnalysis</title>
+	<title>Recommandation System</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 	<style>
@@ -15,11 +15,17 @@
 </head>
 <body>
 <div class="titre" style="background-color:lightgray">
-	<h2 class="display-2 text-center titreh2"> Sentiment Analysis </h2>
-	<h5 class="display-5 text-center"> For Tripadvisor reviews </h5><img src="/static/tripadvisor.png"  height="60" style="border-radius:100%;margin-left: 48%;">
+	<h2 class="display-2 text-center titreh2"> Recommandation Hotel </h2>
+	<h5 class="display-5 text-center"> For Tripadvisor users </h5><img src="/static/tripadvisor.png"  height="60" style="border-radius:100%;margin-left: 48%;">
 </div>
 
 <!--<h1> {{ name }}</h1>-->
+
+{%for i in range(0,10)%}
+
+<p> {{i}}</p>
+
+{%endfor%}
 
 <form action="http://localhost:5000/test" method="post" style="margin:10%">
 	<div class="form-group">
